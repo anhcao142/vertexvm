@@ -4,4 +4,4 @@ go:
 - 1.12.x
 
 before_install:
-  - ./travis-before-script.sh
+  - bash ./travis-before-script.sh
