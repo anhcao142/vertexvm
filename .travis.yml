@@ -3,5 +3,5 @@ language: go
 go:
 - 1.12.x
 
-before_install:
+before_script:
   - bash ./travis-before-script.sh
