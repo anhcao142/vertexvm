@@ -5,6 +5,3 @@ wget -c https://github.com/WebAssembly/wabt/releases/download/1.0.12/wabt-1.0.12
 # Add wat2wasm to path
 export PATH=$PATH:$(pwd)/wabt-1.0.12
 source ~/.bashrc
-pwd
-echo $PATH
-wat2wasm
