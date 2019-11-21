@@ -7,3 +7,4 @@ export PATH=$PATH:$(pwd)/wabt-1.0.12
 source ~/.bashrc
 pwd
 echo $PATH
+wat2wasm
