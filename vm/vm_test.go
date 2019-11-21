@@ -53,6 +53,8 @@ type vmTest struct {
 func getVM(name string) *VM {
 	wat := fmt.Sprintf("./test_data/%s.wat", name)
 	wasm := fmt.Sprintf("./test_data/%s.wasm", name)
+	o, _ := exec.Command("echo", "$PATH").Output()
+	fmt.Printf("%s", o)
 	cmd := exec.Command("wat2wasm", wat, "-o", wasm)
 	err := cmd.Start()
 	if err != nil {
