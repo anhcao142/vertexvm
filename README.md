@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/anhcao142/vertexvm.svg?branch=master)](https://travis-ci.org/anhcao142/vertexvm)
+[![Coverage Status](https://coveralls.io/repos/github/anhcao142/vertexvm/badge.svg?branch=master)](https://coveralls.io/github/anhcao142/vertexvm?branch=master)
 
 ## VertexVM
 
