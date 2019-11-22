@@ -1,4 +1,6 @@
-## VertexVM [![Build Status](https://travis-ci.org/anhcao142/vertexvm.svg?branch=master)](https://travis-ci.org/anhcao142/vertexvm)
+[![Build Status](https://travis-ci.org/anhcao142/vertexvm.svg?branch=master)](https://travis-ci.org/anhcao142/vertexvm)
+
+## VertexVM
 
 VertexVM is a WebAssembly virtual machine with bounded execution runtime, aim to be used with decentralized systems.
 
