@@ -6,9 +6,12 @@ go:
   
 before_install:
   - go get github.com/mattn/goveralls
+  - go get github.com/golangci/golangci-lint/cmd/golangci-lint
 
 before_script:
   - bash ./travis-before-script.sh
 
 script:
   - $GOPATH/bin/goveralls -service=travis-ci
+  - golangci-lint run
+  - go test ./...
